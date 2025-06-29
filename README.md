@@ -3,10 +3,10 @@
 This Python script updates your A and AAAA DNS records in IONOS to match your machine’s current public IPv4 and IPv6 addresses. It is useful when you want to keep your domain or subdomain pointed to a dynamic IP address (like when using a residential ISP without a static IP).
 
 ## Features
-✅ Fetches current public IPv4 and IPv6 addresses using ipify.
-✅ Retrieves your DNS zone and record information from the IONOS DNS API.
-✅ Updates A and AAAA records if they differ from your current public IPs.
-✅ Logs detailed debug output for troubleshooting.
+- ✅ Fetches current public IPv4 and IPv6 addresses using ipify.
+- ✅ Retrieves your DNS zone and record information from the IONOS DNS API.
+- ✅ Updates A and AAAA records if they differ from your current public IPs.
+- ✅ Logs detailed debug output for troubleshooting.
 
 ## Requirements
 - Python 3.10 or newer (uses type hints with | syntax).
